@@ -119,9 +119,9 @@ public class Main {
                     System.out.println("Please enter the Listed_in here: ");
                     String mListed_In = sc.nextLine();
                     System.out.println("Please enter the start date here: ");
-                    Date sDate = new SimpleDateFormat("dd-MMM-yy").parse(sc.nextLine());
+                    Date sDate = new SimpleDateFormat("dd/MM/yyyy").parse(sc.nextLine());
                     System.out.println("Please enter the end date here: ");
-                    Date eDate = new SimpleDateFormat("dd-MMM-yy").parse(sc.nextLine());
+                    Date eDate = new SimpleDateFormat("dd/MM/yyyy").parse(sc.nextLine());
                     System.out.println("Listing " + n + " records of Query4---------- for the range between start date: " + sDate + " and end date " + eDate);
 //                    q1List= movieLists.stream().filter(movie->
 //                       movie.getCountry().equalsIgnoreCase(mcountry)&& movie.getType().equalsIgnoreCase(mtype) && movie.getListed_in().contains(mListed_In) && new SimpleDateFormat("dd/MM/YYYY").parse(movie.getDate_added()).compareTo(sDate) >= 0 && new SimpleDateFormat("dd/MM/YYYY").parse(movie.getDate_added()).compareTo(eDate) <= 0;

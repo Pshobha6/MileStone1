@@ -142,7 +142,7 @@ public class Netflix {
         this.country=country;
         //System.out.println(date_added+"---------------------------date");
         try {
-            this.date_added=new SimpleDateFormat("dd-MMM-yy").parse(date_added);
+            this.date_added=new SimpleDateFormat("dd/MM/yyyy").parse(date_added);
         } catch (ParseException e) {
             e.printStackTrace();
         }
